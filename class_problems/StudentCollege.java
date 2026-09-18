@@ -4,8 +4,7 @@ class Student {
     String name;
     double attendance;
 
-    static String collegeName =
-            "SRM Institute of Science and Technology";
+    static String collegeName ="SRM Institute of Science and Technology";
 
     static int studentCount = 0;
 
