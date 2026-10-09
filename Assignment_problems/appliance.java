@@ -1,5 +1,4 @@
-
-package assignemnt_problems;
+package Assignemnt_problems;
 
 import java.util.Scanner;
 
