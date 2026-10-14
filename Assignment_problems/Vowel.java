@@ -1,10 +1,12 @@
+Package Assignment_problems;
+
 import java.util.Scanner;
 
 public class Vowel {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         String word = sc.next();
+
         int vowels = 0, consonants = 0;
 
         word = word.toLowerCase();
@@ -22,7 +24,5 @@ public class Vowel {
 
         System.out.println("Vowels: " + vowels);
         System.out.println("Consonants: " + consonants);
-
-        sc.close();
     }
 }
