@@ -1,6 +1,5 @@
 package Assignment_problems;
 
-
 public class BusRow {
     static void busiestRow(int[][] grid) {
         int maxTotal = -1;
