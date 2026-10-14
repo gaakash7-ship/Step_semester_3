@@ -5,14 +5,17 @@ import java.util.Scanner;
 public class WordReverser {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         String word = sc.next();
+
         StringBuilder sb = new StringBuilder(word);
         String reverse = sb.reverse().toString();
 
-        System.out.println(reverse + " - " +
-            (word.equals(reverse) ? "palindrome" : "not a palindrome"));
+        System.out.println(reverse);
 
-        sc.close();
+        if (word.equals(reverse)) {
+            System.out.println("palindrome");
+        } else {
+            System.out.println("not a palindrome");
+        }
     }
 }
