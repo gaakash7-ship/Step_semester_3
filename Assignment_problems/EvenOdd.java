@@ -1,19 +1,13 @@
 package Assignment_problems;
 
-
-import java.util.Scanner;
-
 public class EvenOdd {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        int[] arr = {3, 8, 12, 5, 7, 10};
 
-        int n = sc.nextInt();
         int even = 0, odd = 0;
 
-        for (int i = 0; i < n; i++) {
-            int num = sc.nextInt();
-
-            if (num % 2 == 0) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 == 0) {
                 even++;
             } else {
                 odd++;
@@ -22,7 +16,5 @@ public class EvenOdd {
 
         System.out.println("Even: " + even);
         System.out.println("Odd: " + odd);
-
-        sc.close();
     }
 }
